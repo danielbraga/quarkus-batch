@@ -10,7 +10,7 @@ import java.util.Locale;
 @Command(name = "greeting", mixinStandardHelpOptions = true)
 public class GreetingCommand implements Runnable {
 
-    @Parameters(paramLabel = "<name>", defaultValue = "picocli",
+    @Parameters(paramLabel = "<name>", defaultValue = "picocli2",
         description = "Your name.")
     String name;
 
